@@ -1,0 +1,26 @@
+*{
+    padding: 1px;
+    margin: 1px;
+    font-family: Georgia;
+    font-size: medium;
+}
+
+body{
+    background-color: #e4d8dc;
+}
+
+h2{
+    font-family: Georgia;
+    font-size: large;
+}
+
+label {
+    font : medium "typewriter", georgia;
+  }
+
+select {
+    position: relative;
+    left: 0px ;
+    
+
+}

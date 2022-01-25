@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prestaciones laborales</title>
+    <link rel="Stylesheet" href="Prestaciones.css">
+
+
+</head>
+<body>
+    
+    
+
+    <div class="Prestaciones">
+
+        <h2>Datos del solicitante</h2>
+        <br>
+
+        <!-- Datos personales-->
+    <label>Ingrese su nombre</label>
+    <input type="text" placeholder="" onkeypress="return((event.charCode>=65 && event.charCode <=90)|| (event.charCode>=97 && event.charCode <=122))"/><br>
+    <label>Documento de identidad</label>
+    <input type="text" id="Identify"/><br>
+
+        <!--Empresa-->
+    <label>Nombre de la empresa</label>
+    <input type="text" placeholder="" onkeypress="return((event.charCode>=65 && event.charCode <=90)|| (event.charCode>=97 && event.charCode <=122))"/><br> 
+    <br>
+    <h2>Selección de fechas</h2>
+    <br>
+
+    <!-- Fechas -->
+    <label>Ingrese la Fecha de entrada</label>
+    <input type="datetime" id="FechaE"/><br> 
+    <label>Ingrese la Fecha de salida</label>
+    <input type="datetime" id="FechaS"/><br>
+    <br>
+    <h2>Ingrese su salario promedio mensual</h2>
+    <br>
+
+    <!-- Salario -->
+    <label>Salario promedio mensual</label>
+    <input type="number" id="Salario"/><br> 
+    
+
+    <br>
+    <br>
+    <hr></hr>
+    <br>
+    <br>
+
+    
+ 
+
+
+
+    <!--Selecciones-->
+
+    ¿Ha sido usted pre-avisado?
+    <select class ="select" id="Elegir">
+        <option value="incluir pre aviso">si</option>
+        <option value="incluir pre aviso">no</option>
+    </select>
+    <hr>
+    ¿Desea incluir la cesantía?
+    <select class ="select" id="Elegir">
+        <option value="incluir cesantia">si</option>
+        <option value="incluir cesantia">no</option>
+    
+        <p>
+    </select>
+    <hr>
+    ¿Ha tomado sus vacaciones correspondientes a este año?
+    <select class ="select" id="Elegir">
+        <option value="incluir vacaciones">si</option>
+        <option value="incluir vacaciones">no</option>
+    </select>
+    <hr>
+    ¿Desea incluir el salario de navidad?
+    <select class ="select" id="Elegir">
+        <option value="incluir aguinaldo">si</option>
+        <option value="incluir aguinaldo">no</option>
+    </select>
+    </p>
+    <hr>
+    </div>
+    
+
+
+    <script src="Prestaciones.js"></script>
+
+
+
+</body>
+</html>
